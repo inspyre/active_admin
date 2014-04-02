@@ -29,6 +29,7 @@ group :development do
   gem 'yard'               # Documentation generator
   gem 'yard-redcarpet-ext' # Enables Markdown tables, which are disabled by default
   gem 'redcarpet'          # Markdown implementation (for yard)
+  gem 'devise', '~> 3.2'
 end
 
 group :test do

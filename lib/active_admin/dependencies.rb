@@ -38,6 +38,7 @@ module ActiveAdmin
     end
 
     check_for :draper
+    check_for :devise, '~> 3.2.0'
 
   end
 end
